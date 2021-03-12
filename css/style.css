@@ -1,0 +1,206 @@
+body {
+  font-family: "Fascinate", cursive;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.textCent {
+  text-align: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justEnd {
+  justify-content: end;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.spaceEven{
+  justify-content: space-evenly;
+}
+
+.alignEven{
+  align-items: space-evenly;
+}
+
+.cont90 {
+  width: 90%;
+  margin: auto;
+}
+
+.w40 {
+  width: 45%;
+}
+
+.w20 {
+  width: 10%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100{
+  height: 100%;
+}
+
+.textEnd {
+  text-align: end;
+}
+
+.h30{
+  height: 30%;
+}
+
+.mTop{
+  margin-top: 50px;
+}
+
+
+
+
+.pageParameters{
+  background-color: rgb(143, 119, 114);
+  border: 3px solid darkslateblue;
+  width: 98vw;
+  height: 98vh;
+}
+
+.playerCard{
+  width: 450px;
+  height: 600px;
+}
+.playerCard img{
+  height: 100%;
+}
+
+.enemyCard{
+  width: 450px;
+  height: 600px;
+}
+.enemyCard img{
+  height: 100%;
+}
+
+.maxHealh{
+  height: 30px;
+  width: 450px;
+  background-color: dimgrey;
+  border: 2px solid rgb(36, 87, 87);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#healthBar{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(5, 196, 5);
+  border-radius: 10px;
+}
+
+#enemyHealthBar{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(5, 196, 5);
+  border-radius: 10px;
+}
+
+.upgrades{
+  height: 60px;
+  width: 450px;
+  background-color: rgb(143, 119, 114);
+  margin: 5px;
+}
+
+.emptyDiv{
+  height: 60px;
+  width: 450px;
+  background-color: rgb(143, 119, 114);
+  margin: 5px;
+}
+
+.middleButtons{
+  width: 80%;
+  padding: 15px;
+  background-color: rgb(20, 53, 51);
+  color: cyan;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.middleButtons:hover{
+  background-color: rgb(15, 87, 82);
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.upgradeButtons{
+  padding: 18px 40px;
+  margin: 2px;
+  background-color: rgb(2, 66, 66);
+  color: cyan;
+}
+.upgradeButtons:hover{
+  background-color: rgb(2, 46, 46);
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
